@@ -4,6 +4,12 @@
 }
 .Posts-title{
 
+    margin: 1em;
+    text-align: left;
+}
+.Posts-body{
+
+    text-align: left;
 }
 
 .Posts-img{

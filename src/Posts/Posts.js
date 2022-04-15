@@ -24,7 +24,7 @@ function Posts(props) {
 
     let output = () => {
         if (user && !loading) {
-            return userData.map(u => <><div style={{ "margin": "1em", "textAlign": "left" }}>Post title:{u.title} </div><div style={{ "textAlign": "left" }}>Post body: {u.body}</div><hr></hr></>)
+            return userData.map(u => <><div className='Posts-title'>Post title:{u.title} </div><div className='Posts-body' >Post body: {u.body}</div><hr></hr></>)
         } else {
             return <h1>Select A User to See Posts</h1>
         }
